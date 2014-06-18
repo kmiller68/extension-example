@@ -1,0 +1,11 @@
+{
+
+    "name": "kmiller68/extension-example",
+
+    "require": {
+
+    
+    "monolog/monolog": "1.0.*"
+
+    }
+}
