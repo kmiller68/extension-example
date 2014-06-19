@@ -3,8 +3,35 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b4e8890301120058f5c1cc84ec8563e2",
+    "hash": "921e4fc0badf83dc77ea7db809a45fc7",
     "packages": [
+        {
+            "name": "kmiller68/hhvm-pgsql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kmiller68/hhvm-pgsql.git",
+                "reference": "e7e34a58b2d2c44bc363f5a13c32b495f423aba9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kmiller68/hhvm-pgsql/zipball/e7e34a58b2d2c44bc363f5a13c32b495f423aba9",
+                "reference": "e7e34a58b2d2c44bc363f5a13c32b495f423aba9",
+                "shasum": ""
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "NA",
+                    "email": "NA@NA.com"
+                }
+            ],
+            "description": "a test hhvm-pgsql build",
+            "support": {
+                "source": "https://github.com/kmiller68/hhvm-pgsql/tree/master"
+            },
+            "time": "2014-06-18 21:08:43"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.0.2",
@@ -52,7 +79,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kmiller68/hhvm-pgsql": 20
+    },
     "platform": [],
     "platform-dev": []
 }

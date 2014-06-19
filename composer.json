@@ -1,11 +1,14 @@
 {
 
     "name": "kmiller68/extension-example",
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kmiller68/hhvm-pgsql"
+        }
+    ],
     "require": {
-
-    
-    "monolog/monolog": "1.0.*"
-
+        "monolog/monolog": "1.0.*",
+        "kmiller68/hhvm-pgsql": "master-dev"
     }
 }
