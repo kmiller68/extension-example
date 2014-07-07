@@ -11,15 +11,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kmiller68/hhvm-pgsql.git",
-                "reference": "e7e34a58b2d2c44bc363f5a13c32b495f423aba9"
+                "reference": "a49206512bb1529600340699730f40d6b4b27491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kmiller68/hhvm-pgsql/zipball/e7e34a58b2d2c44bc363f5a13c32b495f423aba9",
-                "reference": "e7e34a58b2d2c44bc363f5a13c32b495f423aba9",
+                "url": "https://api.github.com/repos/kmiller68/hhvm-pgsql/zipball/a49206512bb1529600340699730f40d6b4b27491",
+                "reference": "a49206512bb1529600340699730f40d6b4b27491",
                 "shasum": ""
             },
-            "type": "library",
+            "type": "extension",
             "authors": [
                 {
                     "name": "NA",
@@ -30,7 +30,7 @@
             "support": {
                 "source": "https://github.com/kmiller68/hhvm-pgsql/tree/master"
             },
-            "time": "2014-06-18 21:08:43"
+            "time": "2014-06-23 17:38:04"
         },
         {
             "name": "monolog/monolog",
