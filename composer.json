@@ -1,14 +1,23 @@
 {
-
     "name": "kmiller68/extension-example",
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/kmiller68/hhvm-pgsql"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kmiller68/debian_installer.git"
         }
     ],
     "require": {
         "monolog/monolog": "1.0.*",
-        "kmiller68/hhvm-pgsql": "master-dev"
+        "kmiller68/hhvm-pgsql": "master-dev",
+        "kmiller68/debian-installer": "master-dev"
+    },
+    "extras": {
+        "Ubuntu": {
+            "14.04": ["libpq-dev"]
+        }
     }
 }
