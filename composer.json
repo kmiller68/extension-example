@@ -12,8 +12,8 @@
     ],
     "require": {
         "monolog/monolog": "1.0.*",
-        "kmiller68/hhvm-pgsql": "master-dev",
-        "kmiller68/debian-installer": "master-dev"
+        "kmiller68/debian-installer": "master-dev",
+        "kmiller68/hhvm-pgsql": "master-dev"
     },
     "extras": {
         "Ubuntu": {
