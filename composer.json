@@ -16,7 +16,8 @@
         "apt-get": {
             "default": ["figlet", "cowsay"],
             "Ubuntu": {
-                "12.04": ["cowsay"]
+                "12.04": ["cowsay"],
+                "default": ["figlet"]
             }
         }
     }
