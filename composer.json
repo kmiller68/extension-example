@@ -1,0 +1,23 @@
+{
+    "name": "hhvm/extension-example",
+    "description": "Basic dynamically loadable extension for HHVM",
+    "require": {
+        "hhvm/debian-composer-plugin": "dev-master"
+    },
+    "license": "BSD-3-clause",
+    "authors": [
+        {
+            "name": "Keith Miller",
+            "email": "kdm@fb.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extras": {
+        "apt-get": {
+            "default": ["figlet", "cowsay"],
+            "Ubuntu": {
+                "12.04": ["cowsay"]
+            }
+        }
+    }
+}
