@@ -12,7 +12,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "extras": {
+    "extra": {
         "apt-get": {
             "default": ["figlet", "cowsay"],
             "Ubuntu": {
