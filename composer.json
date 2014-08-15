@@ -12,4 +12,12 @@
         }
     ],
     "minimum-stability": "dev"
+    "extras": {
+        "apt-get": {
+            "default": ["figlet", "cowsay"],
+            "Ubuntu": {
+                "12.04": ["cowsay"]
+            }
+        }
+    }
 }
