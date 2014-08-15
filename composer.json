@@ -1,6 +1,7 @@
 {
     "name": "hhvm/extension-example",
     "description": "Basic dynamically loadable extension for HHVM",
+    "type": "extension",
     "require": {
         "hhvm/debian-composer-plugin": "dev-master"
     },
