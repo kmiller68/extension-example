@@ -11,7 +11,7 @@
             "email": "kdm@fb.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
     "extras": {
         "apt-get": {
             "default": ["figlet", "cowsay"],
